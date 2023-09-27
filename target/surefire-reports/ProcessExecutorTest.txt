@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ProcessExecutorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+ProcessExecutorTest.testExecute()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at ProcessExecutorTest.testExecute(ProcessExecutorTest.java:53)
+
