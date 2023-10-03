@@ -7,7 +7,13 @@ pipeline {
                 script {
                     def nameParam = input(
                         message: 'Enter the NAME parameter:',
-                        parameters: [string(defaultValue: 'John', description: 'Name parameter')]
+                        parameters: [
+                            string(
+                                name: 'NAME',          // Nombre del parámetro
+                                defaultValue: 'John', // Valor predeterminado
+                                description: 'Name parameter'
+                            )
+                        ]
                     )
 
                     sh "javac ParallelTasks.java"
