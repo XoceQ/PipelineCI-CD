@@ -16,8 +16,8 @@ pipeline {
                         ]
                     )
 
-                    sh "javac ParallelTasks.java"
-                    sh "java ParallelTasks ${nameParam}"
+                    sh "javac HelloWorldWithDelay.java"
+                    sh "java HelloWorldWithDelay ${nameParam}"
                 }
             }
         }
