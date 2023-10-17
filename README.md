@@ -1,1 +1,1 @@
-# Simple pipeline practice
+# simple-pipeline-practice
