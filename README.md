@@ -1,1 +1,1 @@
-# PipelineCI-CD
+# Simple pipeline practice
